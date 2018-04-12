@@ -1,5 +1,5 @@
 node("docker") {
-    docker.withRegistry('https://192.168.99.100:2376') {
+    docker.withRegistry('https://192.168.99.100:2376','3644bcbb-ab8d-4cc4-9912-f1096161394c') {
     
         git url: "https://github.com/umang-santuka/pocProject.git"'
     
